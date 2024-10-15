@@ -1,3 +1,4 @@
+# main.py
 from morning_greetings.conatct_manager import ContactsManager
 from morning_greetings.message_generator import generate_message
 from morning_greetings.message_sender import send_message
