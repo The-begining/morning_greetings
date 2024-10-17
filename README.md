@@ -18,7 +18,7 @@ A Python package that automates the process of sending personalized "Good Mornin
    Clone the repository from GitHub to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/morning_greetings.git
+   git clone https://github.com/The-begining/morning_greetings.git
    cd morning_greetings
    ```
 
@@ -29,12 +29,6 @@ To install the package locally using setup.py, run:
 pip install .
 
 This will install the morning_greetings package and make it available for use in your Python environment.
-
-## addmore_contact_main.py is working only with python addmore_contact_main.py
-
-After installing the package, you can run the main script to manage contacts and send greetings:
-
-python addmore_contact_main.py
 
 ## Interacting with the Program
 
@@ -66,7 +60,6 @@ morning_greetings/
 │ ├── logger.py # Logs sent messages
 ├── main.py  
 │
-├── addmore_contact_main.py # Main script to run the program(this one is not working for now . it contains main function and have dynamically adding contacts functionality, currently it is located in test_main folder)
 ├── setup.py # Setup script for installing the package
 ├── README.md # Project documentation
 └── new_contacts.txt # File for adding new contacts (optional, created at runtime)
